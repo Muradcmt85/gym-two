@@ -1,0 +1,645 @@
+img {
+    width: 100%;
+}
+
+/*---------- header area start ----------*/
+.header-top {
+background:#fc0247;
+position:relative;
+z-index:9;
+line-height: 50px;
+}
+.header-top:after,.header-top:before {
+content: "";
+height: 100%;
+position: absolute;
+transform: skewX(-40deg);
+width: 57%;
+z-index: -9;
+}
+.header-top:after{
+background: #fc0247;
+top: 0;
+left: -25px;
+}
+.header-top::before {
+background: #fff none repeat scroll 0 0;
+left: 55%;
+width: 15px;
+}
+.header-top p {
+color: #fff;
+margin-bottom: 0;
+margin-top: 0;
+}
+.header-top p a{
+color:#fff;
+font-weight:500;
+}
+.socil-icon ul li{
+display:inline-block;
+margin:0px 2px;
+}
+.socil-icon ul li:last-child{margin-right:0px;}
+.socil-icon ul li a{
+height:30px;
+width:30px;
+background:transparent;
+color:#fff;
+font-size:15px;
+line-height:30px;
+text-align:center;
+display:block;
+border-radius:50%;
+}
+.socil-icon ul li a:hover{background:#121212;}
+/*===Main menu section===*/
+.is-sticky .main-menubar {
+background: #fc0247;
+width: 100%;
+z-index: 99999;
+border-bottom: 1px solid #fff;
+}
+.is-sticky .nav-link {
+color: #fff;
+}
+.is-sticky .navbar-nav .nav-link:hover {
+color: #000 !important;
+}
+.main-menubar {
+background-color: #121212;
+}
+.main-menubar .navbar {
+padding: 15px 0;
+}
+.main-menubar .navbar-nav .nav-link {
+font-size: 18px;
+}
+/*======= Hero Area =======*/
+#hero-slider .hero-item {
+background-image: url(../img/hero/image-1.jpg);
+}
+#hero-slider .hero-item2 {
+background-image: url(../img/hero/image-4.jpg);
+}
+#hero-slider .hero-item3 {
+background-image: url(../img/hero/image-3.jpg);
+}
+#hero-slider .hero-item,
+#hero-slider .hero-item2,
+#hero-slider .hero-item3 {
+min-height: 850px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.hero-slider{
+position: relative;
+overflow: hidden;
+}
+.hero-item-shape{
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+bottom: 0;
+height: 160px;
+position: absolute;
+width: 100%;
+}
+.hero-one-content {
+    margin-top: -33px;
+}
+.hero-one-content h1{
+font-size: 70px;
+line-height: 80px;
+}
+.hero-one-content h4 { line-height: 40px;  }
+.owl-nav {
+margin-top: 0 !important;
+}
+.hero-slider .owl-nav div {
+background: #fc0247 !important;
+border-radius: 0 50px 50px 0 !important;
+font-size: 50px !important;
+height: 100px;
+margin: 0 !important;
+left: 0;
+padding: 0;
+line-height: 97px;
+position: absolute;
+top: calc(50% - 50px);
+width: 50px;
+color: #fff !important;
+box-shadow: none;
+opacity: .2;
+}
+#hero-slider:hover .owl-nav div{
+left: 0;
+}
+#hero-slider:hover .owl-nav div.owl-next{
+right: 0;
+}
+#hero-slider .owl-nav div {
+border-radius: 0 !important;
+left: 40px;
+line-height: 96px;
+width: 60px;
+}
+#hero-slider .owl-nav div.owl-next {
+border-radius: 0 !important;
+left: auto;
+right: 40px;
+}
+#hero-slider .owl-nav div.owl-prev i {
+left: -3px;
+}
+.hero-slider:hover .owl-nav div{
+opacity: 1;
+}
+.hero-slider .owl-nav div:hover{
+background-color: #000 !important;
+}
+.hero-slider .owl-nav div i{
+position: relative;
+left: -2px;
+}
+.hero-slider .owl-nav div.owl-prev i{
+left: -12px;
+}
+.hero-slider .owl-nav div.owl-next {
+border-radius: 50px 0 0 50px !important;
+left: auto;
+right: 0;
+}
+
+/*Slider section end here*/
+
+
+/*Best services section start here*/
+
+section.best-services {
+    color: #fff;  
+    position: relative;
+    top: -122px;
+    z-index: 1;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.service-icon {
+    width: 75px;
+    height: 75px;
+    border: 1px solid #fc0247;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.special-service-wrap:hover .service-icon {
+    border: 1px solid #fff;
+}
+
+.special-service-wrap:hover .service-btn {
+    background: #fff !important;
+    color: #000;
+}
+
+.special-service-wrap:hover .special-service {
+    transform: scale(1.15);
+}
+
+.service-icon i {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.special-service-wrap {
+    box-shadow: 0px 0px 2px -1px #eee;
+    padding: 45px;
+}
+
+.special-service-wrap:hover{
+    background: #fc0247;
+}
+/*Best services section end here*/
+
+/*About section start here*/
+.about-section {
+    margin-top: -30px;
+    color: #fff;
+    background: #121212;
+}
+
+.about-img {
+    position: relative;
+    z-index: 0;
+}
+
+.about-img:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    z-index: 1;
+}
+
+.circle-wrapper {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 60px);
+    margin-top: -60px;
+}
+
+.circle {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle i {
+    font-size: 45px;
+    color: #fc0247;
+    position: relative;
+    left: calc(100% - 0px);
+    top: 27px;
+}
+/*About section end here*/
+
+/*Class section start here*/
+.class-section {
+    color: #fff;
+    padding-bottom: 88px;
+}
+
+.gym-content {
+    background: #f9f9f9;
+    text-align: center;
+    color: #121212;
+}
+
+.gym-content {
+    padding: 15px 0;
+}
+
+.gym-content h3 {
+   margin:10px 0;
+}
+
+.gym-thumbnail:after {
+    background: rgba(252,2,71,.3);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.gym-classes:hover .gym-thumbnail:after {
+    opacity: 1;
+}
+
+.gym-classes:hover .gym-content {
+    background: #fc0247;
+    color: #fff;
+}
+
+.gym-classes:hover .gym-thumbnail img {
+    -webkit-transform: scale(1.10);
+       -moz-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+         -o-transform: scale(1.10);
+            transform: scale(1.10);
+}
+
+
+.gym-thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+/*Class section end here*/
+
+
+/*fitness limit section start here*/
+.fitness-limit {
+    background: url(../img/queto.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+
+/*fitness limit section end here*/
+
+/*our trainer section start here*/
+
+.trainer-content {
+    background: #fc0247;
+    padding: 8px 0;
+    z-index: 999;
+    position: relative;
+}
+
+
+.trainer-content h3,
+.trainer-content p {
+    margin: 0;
+}
+
+.trainer-thub {
+    position: relative;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.trainer-thub .table-trainer {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0;
+    background: rgba(0,0,0,0.75);
+}
+
+.trainer-thub:hover .table-trainer {
+    opacity: 1;
+}
+
+.table-trainer-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table-trainer-cell i {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.table-trainer-cell li a {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.table-trainer-cell li a:hover {
+  background: #f9f9f9;
+}
+
+.table-trainer-cell li a:hover i {
+  color: #121212;
+}
+
+.trainer-content h3 a:hover {
+    color: unset;
+}
+/*our trainer section end here*/
+
+
+/*our pricing section start here*/
+.pricing-section {
+    background: #121212;
+}
+
+.price-table {
+text-align: center;
+overflow: hidden;
+background: #fff;
+box-sizing: border-box;
+box-shadow: 0px 0px 0px 1px #fc0247;
+border-radius: 3px;
+}
+.price-head {
+padding: 35px 15px;
+background: #fc0247;
+}
+.price-head  sup {
+top: -1.0em;
+font-size: 23px;
+padding-right: 5px;
+}
+.price-head sub {
+font-size: 14px;
+left: 5px;
+}
+.price-table .price-head h2{
+margin: 0;
+padding: 0;
+color: #fff;
+}
+.price-table .price-head h3{
+margin: 0;
+padding: 20px 0 0;
+color: #fff;
+font-size: 47px;
+}
+.price-content{
+position: relative;
+}
+.price-content ul{
+position: relative;
+margin:0;
+padding:20px 0;
+}
+.price-content ul li{
+list-style: none;
+font-size:16px;
+padding: 10px 0;
+color:#333;
+border-left: 1px solid transparent;
+border-right: 1px solid transparent;
+cursor:pointer;
+border-bottom: 1px solid #f9f9f9;
+}
+.price-table:hover {
+transform: scale(1.03);
+}
+.price-content ul li:hover {
+    border-left: 1px solid #121212;
+    border-right: 1px solid #121212;
+    background: #fc0247;
+    color: #fff;
+}
+.price-button{
+padding: 0 0 35px;
+margin-top: 20px;
+}
+.price-button a {
+padding: 10px 40px;
+color: #fff;
+border-radius: 25px;
+font-size: 18px;
+text-decoration: none;
+background: #fc0247;
+}
+.price-button a:hover {
+background: #fff;
+color: #252525;
+border: 1px solid #fc0247;
+}
+/*our pricing section end here*/
+
+/*our Gallery section start here*/
+.gallery-item{
+position: relative;
+margin-bottom: 30px;
+margin-left: 2px;
+margin-bottom: 20px;
+margin-right: 2px;
+box-shadow: 0px 0px 2px 0px #f8f9fa;
+}
+.gallery-popup a {
+width: 40px;
+margin: 0 auto;
+opacity: 0;
+}
+.gallery-item:hover .gallery-popup a {
+opacity: 1;
+transform: scale(1.15);
+}
+.gallery-popup {
+transition: 0.5s;
+}
+.gallery-popup:hover{
+background: rgba(252,2,72,.75);
+}
+.gallery-popup {
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+display: flex;
+left: 0;
+text-align: center;
+align-items: center;
+}
+
+.gallery-popup a i {
+    font-size: 35px;
+}
+/*our Gallery section end here*/
+
+/*====Testimonial Section Style Start here====*/
+#testimonial {
+    background: url(../img/agent/agentbg.jpg) no-repeat center center/cover;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 88px;
+}
+
+#testimonial:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+.testimonial-heading h2 {
+color: #000;
+}
+.testimonial {
+padding:30px;
+border: 1px solid #eee;
+}
+.testi-heading {
+margin-top: 15px;
+}
+.testimonial-avatar {
+width: 100px !important;
+border-radius: 4px;
+}
+.testimonial-quote {
+display: block;
+font-size: 15px;
+font-weight: 300;
+padding: 20px 0;
+}
+.testimonial-author {
+display: unset;
+font-weight: 600;
+font-size: 18px;
+}
+/*====Testimonial Section Style End here====*/
+
+/*our branding section start here*/
+.branding-section {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.brand-thumb:hover {
+    background: #fc0247;
+    border-radius: 5px;
+}
+.brand-thumb:hover img {
+    transform: scale(1.15);
+}
+
+.brand-thumb {
+    background: rgba(1,1,1,0.2);
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+/*our branding section end here*/
+
+/*Contact section start here*/
+.contact-img {
+    background: url(../img/contact1.jpg) no-repeat center center/cover;
+}
+/*Contact section end here*/
+
+/*Footer section start here*/
+.footer-section {
+    background: #121212;
+    padding-bottom: 73px;
+}
+
+.quick-link h3,
+.footer-contact-info h3,
+.newsletter h3,
+.footer-about h3 {
+    background: #fc0247;
+    padding-left: 20px;
+}
+
+.quick-link a {
+color: #fff;
+padding-bottom: 20px;
+}
+.quick-link ul li:last-child a {
+padding-bottom: 0;
+}
+.quick-link i {
+color: #fc0247;
+}
+
+.pointer {
+    cursor: pointer;
+    color: #fff;
+}
+
+.input-group-prepend .input-group-text {
+    background-color: #fc0247;
+    border: 1px solid #fc0247;
+}
+
+.footer-contact-info i {
+font-size: 18px;
+color: #ffffff;
+float: left;
+line-height: 22px;
+margin-right: 10px;
+}
+/*Footer section end here*/

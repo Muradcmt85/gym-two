@@ -1,0 +1,200 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+.header-top::before {
+    background:  none;
+    left: 0;
+    width: 0;
+}
+
+.pull-right {
+    float: left;
+}
+
+div#navbarNavDropdown {
+    z-index: 9999 !important;
+    background: #fc0247;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main-menubar .navbar-nav .active {
+    color: #ffff !important;
+}
+.main-menubar .navbar-nav {
+    color: #ffff !important;
+}
+
+.main-menubar .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+
+
+section.best-services {
+    top: 20px;
+}
+
+.hero-one-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.special-service-wrap.text-center {
+    margin-bottom: 25px;
+}
+
+.about-section {
+    margin-top: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
+}
+
+.about-content {
+    margin-top: 65px;
+}
+
+.price-table {
+    margin-bottom: 25px;
+}
+
+.price-last {
+    margin-bottom: 0 !important;
+}
+
+.trainer-thub {
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    margin-bottom: 25px;
+}
+
+textarea#input-message {
+    margin-bottom: 25px;
+}
+
+.footer-about,
+.quick-link,
+.footer-contact-info {
+    margin-bottom: 45px;
+}
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+div#navbarNavDropdown {
+    z-index: 9999 !important;
+    background: #fc0247;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main-menubar .navbar-nav .active {
+    color: #ffff !important;
+}
+.main-menubar .navbar-nav {
+    color: #ffff !important;
+}
+
+.main-menubar .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+section.best-services {
+    position: relative;
+    top: 90px;
+}
+
+.about-section {
+    margin-top: 180px;
+}
+
+.about-content {
+    margin-top: 25px;
+}
+
+.price-table .price-head h2 {
+    font-size: 30px;
+}
+
+.message-send {
+    margin-top: 25px;
+}
+
+
+ }
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+div#navbarNavDropdown {
+    z-index: 9999 !important;
+    background: #fc0247;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main-menubar .navbar-nav .active {
+    color: #ffff !important;
+}
+.main-menubar .navbar-nav {
+    color: #ffff !important;
+}
+
+.main-menubar .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+a.btn.btn-sm.primary-bg.service-btn {
+    font-size: 12px;
+}
+
+.about-content h3 {
+    margin-top: 25px;
+}
+
+.special-service h2 {
+    font-size: 18px;
+}
+
+.hero-section .owl-theme .owl-dots {
+    display: none !important;
+}
+
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.hero-one-content h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.hero-one-content {
+    margin-left: 100px;
+}
+
+.special-service h2 {
+    font-size: 30px;
+}
+
+.gym-content {
+    padding: 15px 12px;
+}
+
+.gym-content h3 {
+    font-size: 24px;
+}
+
+
+
+ }
+
+@media (min-width: 1200px) {  }
